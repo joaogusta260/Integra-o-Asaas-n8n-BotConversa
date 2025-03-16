@@ -25,6 +25,9 @@ Este projeto consiste em uma série de fluxos criados no **n8n** que integram a 
 - A mesma lógica é aplicada para outros prazos (7 dias, 10 dias, etc.), onde no 10º dia, o fluxo também envia um aviso de cancelamento da assinatura caso o pagamento não seja efetuado em até 2 dias.
 
 ### 2. Confirmação de Pagamento
+
+![Confirmação de Pagamento no Asaas](./ASAAS%20CONFIRMA%C3%A7AO%20DE%20PAGAMENTO.png)
+
 - O Asaas dispara webhooks (ex.: `PAYMENT_CONFIRMED` ou `PAYMENT_RECEIVED`) que são recebidos pelo n8n.
 - O fluxo extrai os dados do cliente (nome, telefone, link do comprovante) e envia:
   - Uma mensagem de confirmação para o cliente com o link do comprovante.
