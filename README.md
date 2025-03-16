@@ -26,7 +26,7 @@ Este projeto consiste em uma série de fluxos criados no **n8n** que integram a 
 
 ### 2. Confirmação de Pagamento
 
-![Confirmação de Pagamento no Asaas](./ASAAS%20CONFIRMA%C3%A7AO%20DE%20PAGAMENTO.png)
+![Confirmação de Pagamento no Asaas](./ASAAS%20confirmacao%20de%20pagamento.png)
 
 - O Asaas dispara webhooks (ex.: `PAYMENT_CONFIRMED` ou `PAYMENT_RECEIVED`) que são recebidos pelo n8n.
 - O fluxo extrai os dados do cliente (nome, telefone, link do comprovante) e envia:
